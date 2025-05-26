@@ -3,9 +3,10 @@ function Hello(props){
          return(
            <p>welcome {props.username}</p>
         );
+    }else{
+        return(
+            <p>Please log in </p>
+        )
     }
-    return(
-        <p>come again</p>
-    );
 }
 export default Hello
