@@ -2,7 +2,7 @@ import Hello from './Hello.jsx'
 function App() {
 return(
   <>
-   <Hello isloggedIn= {true} username='Hirwa'/>
+   <Hello isloggedIn= {false} username='Hirwa'/>
    <Hello/>
   </>
 )
