@@ -3,6 +3,7 @@ function App() {
 return(
   <>
    <Hello isloggedIn= {true} username='Hirwa'/>
+   <Hello/>
   </>
 )
 }
