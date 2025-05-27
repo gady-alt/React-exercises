@@ -11,9 +11,17 @@ function Hello(props){
     }
     */
     // by using terinal operator 
-      return(
-      props.islogged? <h2>Welcome{props.username}</h2>:
-                <h2>Please login</h2>
+     /* return(
+      props.isloggedIn? <h2 className="logged">Welcome{props.username}</h2>:
+                <h2 className="notlogged">Please login</h2>
       );
+      */
+     //for best reading
+     const loggedIn = <h2 className="logged">Welcome{props.username}</h2>
+     const notlogged = <h2 className="notlogged">Please login</h2>
+      return(
+      props.isloggedIn? loggedIn : notlogged);
+
+
 }
 export default Hello
